@@ -1,0 +1,4 @@
+FROM odoo
+MAINTAINER tony4mail@gmail.com
+CHOWN -R odoo ../odoo13
+COPY . /mnt/extra-addons 
