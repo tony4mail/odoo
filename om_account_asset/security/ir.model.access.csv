@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_account_asset_category,account.asset.category,model_account_asset_category,account.group_account_user,1,0,0,0
 access_account_asset_asset,account.asset.asset,model_account_asset_asset,account.group_account_user,1,0,0,0
@@ -10,3 +11,17 @@ access_asset_asset_report_manager,asset.asset.report,model_asset_asset_report,ac
 access_account_asset_category_invoicing_payment,account.asset.category,model_account_asset_category,account.group_account_invoice,1,0,0,0
 access_account_asset_asset_invoicing_payment,account.asset.asset,model_account_asset_asset,account.group_account_invoice,1,0,1,0
 access_account_asset_depreciation_line_invoicing_payment,account.asset.depreciation.line,model_account_asset_depreciation_line,account.group_account_invoice,1,0,1,0
+=======
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_asset_category,account.asset.category,model_account_asset_category,account.group_account_user,1,0,0,0
+access_account_asset_asset,account.asset.asset,model_account_asset_asset,account.group_account_user,1,0,0,0
+access_account_asset_category_manager,account.asset.category,model_account_asset_category,account.group_account_manager,1,1,1,1
+access_account_asset_asset_manager,account.asset.asset,model_account_asset_asset,account.group_account_manager,1,1,1,1
+access_account_asset_depreciation_line,account.asset.depreciation.line,model_account_asset_depreciation_line,account.group_account_user,1,0,0,0
+access_account_asset_depreciation_line_manager,account.asset.depreciation.line,model_account_asset_depreciation_line,account.group_account_manager,1,1,1,1
+access_asset_asset_report,asset.asset.report,model_asset_asset_report,account.group_account_user,1,0,0,0
+access_asset_asset_report_manager,asset.asset.report,model_asset_asset_report,account.group_account_manager,1,1,1,1
+access_account_asset_category_invoicing_payment,account.asset.category,model_account_asset_category,account.group_account_invoice,1,0,0,0
+access_account_asset_asset_invoicing_payment,account.asset.asset,model_account_asset_asset,account.group_account_invoice,1,0,1,0
+access_account_asset_depreciation_line_invoicing_payment,account.asset.depreciation.line,model_account_asset_depreciation_line,account.group_account_invoice,1,0,1,0
+>>>>>>> eda14f014cece371729590b13295984f081dff8f
